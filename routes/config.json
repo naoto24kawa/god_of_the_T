@@ -1,0 +1,10 @@
+{
+	"dev": {
+		"site": "Web Engineer Blog Dev",
+		"url": "http://dev.dim5.net/"
+	},
+	"prod": {
+		"site": "Web Engineer Blog",
+		"url": "http://dim5.net/"
+	}
+}

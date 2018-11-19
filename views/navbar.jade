@@ -1,0 +1,19 @@
+nav.navbar.navbar-toggleable-md.navbar-inverse.fixed-top.bg-inverse
+    div.container
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+        a.navbar-brand(href='#') PEM
+        div#navbarCollapse.collapse.navbar-collapse
+            ul.navbar-nav.mr-auto
+                li.nav-item
+                    a(href=request_link).nav-link 依頼
+                li.nav-item
+                    a(href=status_link).nav-link 状況
+                li.nav-item
+                    a(href=log_link).nav-link 履歴
+            div.navbar-right
+                button.btn.btn-primary.btn-outline-success.my-2.my-sm-0(type='button')
+                    a(href='/signin')|Sign in
+                label.text-muted &nbspまたは&nbsp
+                button.btn.btn-primary.btn-outline-success.my-2.my-sm-0(type='button')
+                    a(href='/signup', style='width:100%; height:100%;')|Sign up
